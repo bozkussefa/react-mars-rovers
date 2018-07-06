@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+#root{
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+#parent{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#rover-label{
+    float: left;
+}
+
+#rover-attr{
+    margin-top: 10px;
+}
+.new-rover-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.new-rover-container-second--child{
+    margin-top: 5px;
+}
+
+.ui.celled.table tr td {
+    border: 3px solid rgba(34, 36, 38, .1);
+}
+
+.ui.celled.table tr td {
+    width: 50px;
+    height: 50px;
+}
